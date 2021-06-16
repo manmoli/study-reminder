@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "incremental": true,                   
+    "target": "es2020",                          
+    "module": "commonjs",                     
+    "allowJs": true,                       
+    "sourceMap": true,                     
+    "outDir": "./dist",                        
+    "strict": true,                           
+    "noImplicitAny": true,                 
+    "strictNullChecks": true,              
+    "alwaysStrict": true,                  
+    "noUnusedLocals": true,                
+    "noUnusedParameters": true,            
+    "noImplicitReturns": true,             
+    "noFallthroughCasesInSwitch": true,    
+    "moduleResolution": "node",            
+    "esModuleInterop": true,                  
+    "experimentalDecorators": true,        
+    "skipLibCheck": true,                     
+    "forceConsistentCasingInFileNames": true  
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+  "typeRoots": [
+    "node_modules/@types",
+    "src/types"
+  ],
+}
