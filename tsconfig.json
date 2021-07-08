@@ -1,31 +1,14 @@
 {
   "compilerOptions": {
-    "incremental": true,                   
-    "target": "es2020",                          
+    "target": "es6",                          
     "module": "commonjs",                     
     "allowJs": true,                       
-    "sourceMap": true,                     
-    "outDir": "./dist",                        
+    "outDir": "./build",                        
     "strict": true,                           
-    "noImplicitAny": true,                 
-    "strictNullChecks": true,              
-    "alwaysStrict": true,                  
-    "noUnusedLocals": true,                
-    "noUnusedParameters": true,            
-    "noImplicitReturns": true,             
-    "noFallthroughCasesInSwitch": true,    
-    "moduleResolution": "node",            
-    "esModuleInterop": true,                  
-    "experimentalDecorators": true,        
+    "esModuleInterop": true,
     "skipLibCheck": true,                     
-    "forceConsistentCasingInFileNames": true  
+    "forceConsistentCasingInFileNames": true, 
+    "noImplicitAny": true
   },
-  "include": [
-    "src/**/*",
-    "tests/**/*"
-  ],
-  "typeRoots": [
-    "node_modules/@types",
-    "src/types"
-  ],
+  "exclude": ["node_modules"]
 }
