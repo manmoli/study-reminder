@@ -10,5 +10,9 @@
     "forceConsistentCasingInFileNames": true, 
     "noImplicitAny": true
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "./tests/",
+    "./dist",
+    "node_modules"
+  ]
 }
